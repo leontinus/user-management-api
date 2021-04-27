@@ -40,6 +40,33 @@ Now that the **package.json** is available in the project folder, add the depend
 $ npm install express lodash
 ```
 
+## Testing
+
+Please run node server.js first before proceeding.
+
+cURL command for available APIs:
+
+GET /user/:id 
+```shell
+curl --location --request GET 'http://127.0.0.1:3000/user/ID0001'
+```
+
+GET /feature?email=XXX&featureName=XXX
+```shell
+curl --location --request GET 'http://127.0.0.1:3000/feature?email=arif.ishak.91@gmail.com&featureName=editProfile'
+```
+
+POST /feature
+```shell
+curl --location --request POST 'http://127.0.0.1:3000/feature' \
+--header 'Content-Type: application/json' \
+--data-raw '{
+	"featureName": "deleteMembers",
+	"email": "angele.beaulieu@worklah.com",
+	"enable": true
+}'
+```
+
 # Built With
 * Node.js
 * Express.js
