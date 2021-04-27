@@ -1,0 +1,31 @@
+[
+  {
+    "ID": "ID0001",
+    "Name": "Arif",
+    "email": "arif.ishak.91@gmail.com",
+    "featureAccess": [
+      "listMembers",
+      "deleteMembers",
+      "editProfile"
+    ]
+  },
+  {
+    "ID": "ID0002",
+    "Name": "Giuliano Alfonsi",
+    "email": "giuliano.alfonsi@worklah.com",
+    "featureAccess": [
+      "listMembers",
+      "deleteMembers",
+      "editProfile"
+    ]
+  },
+  {
+    "ID": "ID0003",
+    "Name": "Angèle Beaulieu",
+    "email": "angele.beaulieu@worklah.com",
+    "featureAccess": [
+      "editProfile",
+      "deleteMembers"
+    ]
+  }
+]

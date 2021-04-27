@@ -1,0 +1,25 @@
+[
+  {
+    "name": "listMembers",
+    "usersWhoCanAccess": [
+      "arif.ishak.91@gmail.com",
+      "giuliano.alfonsi@worklah.com"
+    ]
+  },
+  {
+    "name": "deleteMembers",
+    "usersWhoCanAccess": [
+      "arif.ishak.91@gmail.com",
+      "giuliano.alfonsi@worklah.com",
+      "angele.beaulieu@worklah.com"
+    ]
+  },
+  {
+    "name": "editProfile",
+    "usersWhoCanAccess": [
+      "arif.ishak.91@gmail.com",
+      "giuliano.alfonsi@worklah.com",
+      "angele.beaulieu@worklah.com"
+    ]
+  }
+]
